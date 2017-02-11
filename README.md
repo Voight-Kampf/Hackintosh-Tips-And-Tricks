@@ -237,6 +237,8 @@ To allow many Skylake boards (if not all of them) to work with some of the more 
 
 It gets installed to your EFI partition (if using Clover) at */Volumes/EFI/EFI/CLOVER/kexts/Other/* (or the *10.xx* folders - but I prefer *Other*).  I did an audio-related writeup about it [here](https://www.reddit.com/r/hackintosh/comments/4sil5p/audio_mechanic_old_patchfix_removal_applealc/).  /u/TheRacerMaster wrote a tutorial for installation [here](https://www.reddit.com/r/hackintosh/comments/4e23w6/guide_native_audio_with_clover_applealckext/).
 
+If the sound is distorted through the mobo audio out you have to use useartfrequency in clover config.
+
 [\[Return\]](#index)
 
 ###HDMI Audio
